@@ -1,82 +1,76 @@
 # 📈 Stock Portfolio Tracker
 
-A simple Python-based Stock Portfolio Tracker that calculates the total investment value based on stock symbols, quantities, and predefined stock prices.
+A simple Python-based **Stock Portfolio Tracker** that helps users manage their stock investments and calculate portfolio value.
 
-## ✨ Features
+## 🚀 Features
 
-* 📊 Track stock investments
-* 💰 Calculate total investment
-* 🔎 Support multiple stock symbols
-* 🔢 Calculate investment based on quantity
-* ⚠️ Handle invalid stock symbols
-* 🐍 Built with Python
-
-## 📋 Supported Stocks
-
-| Stock | Price |
-| ----- | ----: |
-| AAPL  |  $180 |
-| MSFT  |  $400 |
-| GOOGL |  $150 |
-| AMZN  |  $200 |
-| TSLA  |  $250 |
+* 📊 Add multiple stocks to your portfolio
+* 💰 Enter stock quantities and prices
+* 📈 Calculate total investment value
+* 💵 Track portfolio value
+* 🧮 Calculate profit and loss
+* 🔄 Simple interactive command-line interface
+* 🐍 Built completely with Python
 
 ## 🛠️ Technologies Used
 
 * Python
-* VS Code
-* Git
-* GitHub
+* Python Standard Library
+* Command Line Interface (CLI)
+
+## 📂 Project Structure
+
+```text
+CodeAlpha_StockPortfolio/
+│
+├── stock_portfolio.py
+├── README.md
+└── .gitignore
+```
 
 ## ▶️ How to Run
 
-### 1. Clone the repository
+Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/YOUR-USERNAME/CodeAlpha_StockPortfolio.git
 ```
 
-### 2. Open the project folder
+Go into the project folder:
 
 ```bash
 cd CodeAlpha_StockPortfolio
 ```
 
-### 3. Run the program
+Run the program:
 
 ```bash
 python stock_portfolio.py
 ```
 
-## 💻 Example
+## 💡 Example
 
 ```text
 📈 Stock Portfolio Tracker
+==============================
 
-Enter stock symbol: AAPL
-Enter quantity: 5
-
-Stock: AAPL
-Quantity: 5
-Price: $180
-Investment: $900
+Enter stock symbol (or 'done' to finish):
 ```
 
-## 🎯 Project Goal
+Enter your stock details and the program will calculate your portfolio information.
 
-The goal of this project is to demonstrate fundamental Python programming concepts such as:
+## 🎯 Project Purpose
 
-* Variables
-* Dictionaries
+This project was created as part of a **Python programming internship task** to practice:
+
+* Python programming
+* Data handling
 * User input
-* Conditional statements
-* Arithmetic operations
-* Error handling
+* Calculations
+* Project documentation
 
 ## 👩‍💻 Author
 
-Spoorthi
+**Spoorthi**
 
----
-
-⭐ Built as part of a Python internship project.
+⭐ If you find this project useful, consider giving it a star!
